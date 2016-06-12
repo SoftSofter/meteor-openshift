@@ -19,7 +19,7 @@ git rm -rf * .openshift
 Now, We have to fetch meteor bundler from this git.
 
 ```bash
-git remote add meteor-openshift -m master git@github.com:jeeeyul/meteor-openshift.git
+git remote add meteor-openshift -m master https://github.com/jeeeyul/meteor-openshift.git
 git pull -s recursive -X theirs meteor-openshift master
 ```
 Now, time to build your meteor app.
